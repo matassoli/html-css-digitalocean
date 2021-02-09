@@ -1,18 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #031b4f;
+}
 
+.navibar img {
+  width: 150px;
+}
 
+.navibar {
+  height: 60px;
+  line-height: 60px;
+}
 
+.navibar li {
+  display: inline-block;
+  margin-left: 15px;
+}
 
+nav a {
+  color: #031b4f;
+  font-size: 13px;
+  font-weight: 600;
+}
 
+a:hover {
+  text-decoration: none;
+  color: #006aff;
+}
 
+.btn {
+  border: 1px solid #006aff;
+  color: #006aff;
+}
 
+.btn__mobile {
+  background: transparent;
+  border: 0;
+  color: #006aff;
+  font-size: 20px;
+}
 
-
-
-
-
-
-
-
+.hero {
+  background-color: #006aff;
+  height: 4000px;
+}
 
 @media screen and (max-width: 992px) {}
 
