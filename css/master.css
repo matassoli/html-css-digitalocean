@@ -11,9 +11,10 @@ body {
   height: 60px;
   line-height: 60px;
   top: 0;
-  /* position: fixed;
+  position: fixed;
   background-color: white;
-  width: 100%; */
+  width: 100%;
+  z-index: 10;
 }
 
 .navibar li {
@@ -26,6 +27,7 @@ nav a {
   font-size: 13px;
   font-weight: 500;
 }
+
 a:hover {
   text-decoration: none;
   color: #006aff;
@@ -58,23 +60,53 @@ h1 {
   font-weight: 500;
   padding-top: 200px;
 }
+
 .hero p {
   color: #FFF;
   opacity: 0.8;
   font-size: 18px;
 }
 
-.login__box {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  background-color: #FFF;
-}
 .hero2 {
   background-color: red;
   height: 500px;
 }
 
-@media screen and (max-width: 992px) {}
+.hero .login-form {
+  width: 400px;
+  margin: 50px auto;
+  padding-top: 150px;
 
-@media screen and (max-width: 768px) {}
+}
+
+.hero .login-form form {
+  margin-bottom: 15px;
+  background: #FFF;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.hero .login-form h2 {
+  margin: 0 0 15px;
+  font-size: 24px;
+}
+
+.hero .login-form span {
+  color: #006aff;
+}
+
+.hero .form-control, .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+ .btn-primary {
+   border: 0;
+   background-color: #579aff;
+   color: white;
+ }
+
+
+  @media screen and (max-width: 992px) {}
+
+  @media screen and (max-width: 768px) {}
