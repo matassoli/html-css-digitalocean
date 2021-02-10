@@ -153,6 +153,7 @@ h5 {
 .features__text {
   color: #5b6987;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .features__text h2 {
@@ -182,7 +183,7 @@ h5 {
   color: #031b4e;
   border-color: #006aff;
   border-width: 3px;
-  transition: border 0.2s linear
+  transition: border 0.1s linear
 }
 
 .features__description img {
@@ -195,11 +196,51 @@ h5 {
   font-weight: 600;
 }
 
-.features__description p {
+.features__description p, .slides p {
   font-size: 16px;
   color: #5b6987;
 }
 
+.slides {
+  background-color: #f3f5f9;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.slides h1 {
+  color: #031b4e;
+  padding: 60px 0 20px 0;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.slides p {
+  font-size: 20px;
+  color: #5b6987;
+  padding-bottom: 50px;
+}
+
+.slides__img img {
+  width: 40%;
+  height: auto;
+}
+
+.slides__img i {
+  padding: 0 20px;
+  font-size: 30px;
+  color: #5b6987;
+}
+
+.slides__img i:hover {
+  color: #031b4e;
+}
+
+.slides__img p {
+  padding-top: 10px;
+  color: #031b4e;
+  font-size: 12px;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 992px) {
   .hero .login-form {
@@ -218,6 +259,10 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .features {
+    margin-top: 40px;
+  }
+
   .sponsor__logos--block {
     display: block;
   }
@@ -230,5 +275,4 @@ h1 {
   .features__description .row {
     margin-left: 10px;
   }
-
 }
