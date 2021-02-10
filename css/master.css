@@ -62,6 +62,7 @@ h1 {
   color: #FFF;
   font-size: 60px;
   font-weight: 500;
+  margin-top: 0;
   padding-top: 200px;
 }
 
@@ -250,6 +251,7 @@ h5 {
 .slides__text__circles i {
   color: #006aff;
   font-size: 12px;
+  margin-top: 20px;
 }
 
 .slides__text__circles i:hover {
@@ -296,10 +298,9 @@ table {
 
 td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 10px 0;
   color: rgba(255, 255, 255, 0.7);
+  padding: 10px 0;
 }
-
 
 td:first-of-type {
   color: white;
@@ -320,6 +321,49 @@ td:first-of-type {
   text-decoration: none;
 }
 
+.slides__rockerbox {
+  display: inline-block;
+  margin: auto;
+  background-color: #FFF;
+  padding: 50px 20px;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.slides__rockerbox img {
+  padding: 30px 0;
+  max-width: 40%;
+}
+
+.slides__rockerbox p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.slides__rockerbox small:first-of-type {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+small {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.read__st {
+  color: #006aff;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.slides__img {
+  padding: 0;
+}
+
+/* RESPONSIVE */
 @media screen and (max-width: 992px) {
   .hero .login-form {
     margin: auto;
