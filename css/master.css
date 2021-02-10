@@ -147,8 +147,59 @@ h5 {
 }
 
 .features {
-  height: 200px;
+  margin: 100px 0 100px;
 }
+
+.features__text {
+  color: #5b6987;
+  font-size: 20px;
+}
+
+.features__text h2 {
+  color: #031b4e;
+  font-size: 36px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.features__buttons {
+  padding-bottom: 30px;
+}
+
+.features__buttons button {
+  display: block;
+  background: transparent;
+  border: none;
+  color: rgba(3, 27, 78, 0.6);
+  font-size: 16px;
+  border-left: 1px solid rgba(3, 27, 78, 0.2);
+  padding: 15px;
+  border-radius: 0;
+  outline: none;
+}
+
+.features__buttons button:active {
+  color: #031b4e;
+  border-color: #006aff;
+  border-width: 3px;
+  transition: border 0.2s linear
+}
+
+.features__description img {
+  padding-bottom: 20px;
+}
+
+.features__description h5 {
+  padding-bottom: 15px;
+  color: #031b4f;
+  font-weight: 600;
+}
+
+.features__description p {
+  font-size: 16px;
+  color: #5b6987;
+}
+
 
 @media screen and (max-width: 992px) {
   .hero .login-form {
@@ -175,4 +226,9 @@ h1 {
     padding-top: 100px;
     font-size: 30px;
   }
+
+  .features__description .row {
+    margin-left: 10px;
+  }
+
 }
