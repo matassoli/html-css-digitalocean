@@ -15,65 +15,68 @@
 </head>
 
 <body>
-  <div class="navibar">
-    <nav class="container">
-      <div class="row">
-        <div class="col-xs-2">
-          <img src="img/logo.png" alt="Helbiz Logo">
-        </div>
-        <div class="col-xs-5">
-          <nav class="main__nav visible-md-inline-block visible-lg-inline-block">
-            <ul>
-              <li><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-xs-5 text-right">
-          <nav class="menu__nav visible-md-inline-block visible-lg-inline-block">
-            <ul>
-              <li><a href="#">Docs</a></li>
-              <li><a href="#">Support</a> <i class="fas fa-angle-down"></i></li>
-              <li><a href="#">Login</a></li>
-              <li><a class="btn" href="">Sign Up</a></li>
-            </ul>
-          </nav>
-          <button class="btn btn__mobile hidden-md hidden-lg"><i class="fas fa-bars"></i></button>
-        </div>
-      </div>
-    </nav>
-  </div>
 
-  <div class="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <h1>The simplest cloud platform for developers & teams</h1>
-          <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+  <header>
+    <div class="navibar">
+      <nav class="container">
+        <div class="row">
+          <div class="col-xs-2">
+            <img src="img/logo.png" alt="Helbiz Logo">
+          </div>
+          <div class="col-xs-5">
+            <nav class="main__nav visible-md-inline-block visible-lg-inline-block">
+              <ul>
+                <li><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xs-5 text-right">
+            <nav class="menu__nav visible-md-inline-block visible-lg-inline-block">
+              <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Support</a> <i class="fas fa-angle-down"></i></li>
+                <li><a href="#">Login</a></li>
+                <li><a class="btn" href="">Sign Up</a></li>
+              </ul>
+            </nav>
+            <button class="btn btn__mobile hidden-md hidden-lg"><i class="fas fa-bars"></i></button>
+          </div>
         </div>
-        <div class="col-xs-8 col-md-6 col-lg-offset-1 col-lg-4">
-          <div class="login-form">
-            <form>
-              <h2 class="text-center">Deploy your app in seconds.<br><span>Get started now.</span></h2>
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email" required="required">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" required="required">
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Create your account</button>
-                <button type="submit" class="btn btn-secondary btn-block"><img class="google__logo" img src="img/google-icon.png">Sign up with Google</button>
-                <p class="text-center">By signing up you agree to the <a href="#">Terms of Service</a></p>
-              </div>
-            </form>
+      </nav>
+    </div>
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <h1>The simplest cloud platform for developers & teams</h1>
+            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+          </div>
+          <div class="col-xs-8 col-md-6 col-lg-offset-1 col-lg-4">
+            <div class="login-form">
+              <form>
+                <h2 class="text-center">Deploy your app in seconds.<br><span>Get started now.</span></h2>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email" required="required">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block">Create your account</button>
+                  <button type="submit" class="btn btn-secondary btn-block"><img class="google__logo" img src="img/google-icon.png">Sign up with Google</button>
+                  <p class="text-center">By signing up you agree to the <a href="#">Terms of Service</a></p>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </header>
+
 
   <main>
     <section class="sponsor text-center">
@@ -90,8 +93,6 @@
       </div>
       <a href="#">View customer stories <i class="fas fa-angle-right"></i></a>
     </section>
-
-
 
 
     <section class="container text-center">
@@ -136,7 +137,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -148,15 +148,15 @@
         <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
       </div>
       <div class="slides__img">
-        <a href=""><i class="fas fa-chevron-left"></i></a><img src="img/screenshot-create-droplet-12336b41.jpg" alt="Screenshot"><a href=""><i class="fas fa-chevron-right"></i></a>
+        <a href=""><i class="hidden-xs fas fa-chevron-left"></i></a><img src="img/screenshot-create-droplet-12336b41.jpg" alt="Screenshot"><a href=""><i class="hidden-xs fas fa-chevron-right"></i></a>
         <p>Create compute servers in 55 seconds or less.</p>
-
-
       </div>
-
-
-
-
+      <div class="slides__text__circles">
+        <a href=""><i class="far fa-circle"></i></a>
+        <a href=""><i class="far fa-circle"></i></a>
+        <a href=""><i class="far fa-circle"></i></a>
+        <a href=""><i class="far fa-circle"></i></a>
+      </div>
     </section>
 
 

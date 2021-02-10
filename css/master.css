@@ -1,6 +1,6 @@
 body {
-  font-family: 'Inter', sans-serif;
   color: #031b4f;
+  font-family: 'Inter', sans-serif;
 }
 
 .navibar img {
@@ -8,11 +8,11 @@ body {
 }
 
 .navibar {
+  background-color: white;
   height: 60px;
   line-height: 60px;
-  top: 0;
   position: fixed;
-  background-color: white;
+  top: 0;
   width: 100%;
   z-index: 10;
 }
@@ -29,8 +29,8 @@ nav a {
 }
 
 a:hover {
-  text-decoration: none;
   color: #006aff;
+  text-decoration: none;
 }
 
 .btn {
@@ -48,9 +48,9 @@ a:hover {
 .hero {
   background-color: #006aff;
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-position: center;
   background-size: cover;
   width: 100%;
-  background-position: center;
 }
 
 h1 {
@@ -62,26 +62,26 @@ h1 {
 
 .hero p {
   color: #FFF;
-  opacity: 0.8;
   font-size: 18px;
+  opacity: 0.8;
 }
 
 .login-form {
-  min-width: 300px;
   margin: 50px auto;
-  padding-top: 150px;
+  min-width: 300px;
   padding-bottom: 30px;
+  padding-top: 150px;
 }
 
 .login-form form {
   background: #FFF;
-  padding: 30px 20px 10px 20px;
   border-radius: 5px;
+  padding: 30px 20px 10px 20px;
 }
 
 .login-form h2 {
-  margin: 0 0 15px;
   font-size: 24px;
+  margin: 0 0 15px;
 }
 
 .login-form span {
@@ -89,46 +89,46 @@ h1 {
 }
 
 .hero .form-control, .btn {
-  min-height: 38px;
   border-radius: 2px;
+  min-height: 38px;
 }
 
 .btn-primary {
-  border: 0;
   background-color: #579aff;
+  border: 0;
   color: white;
 }
 
 .btn-secondary {
+  background-color: #FFF;
   border: 0;
   box-shadow: 1px 1px 2px 0px #A4A4A4;
-  background-color: #FFF;
   color: #000;
 }
 
 .google__logo {
   height: 20px;
-  width: auto;
-  position: absolute;
   left: 40px;
+  position: absolute;
+  width: auto;
 }
 
 .form-group p {
-  margin-top: 10px;
   color: #031b4f;
   font-size: 12px;
   font-weight: 600;
+  margin-top: 10px;
 }
 
 .sponsor {
+  background-color: #f3f5f9;
   display: block;
   padding: 40px 0 20px 0;
-  background-color: #f3f5f9;
 }
 
 h5 {
-  margin: 0;
   color: #6f7b97;
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -137,13 +137,16 @@ h5 {
 }
 
 .sponsor__logos img {
-  padding-left: 10px;
   margin: auto;
+  padding-left: 10px;
+
 }
 
 .sponsor a {
   color: #006aff;
   font-weight: 500;
+  outline: none;
+
 }
 
 .features {
@@ -159,8 +162,8 @@ h5 {
 .features__text h2 {
   color: #031b4e;
   font-size: 36px;
-  padding-bottom: 20px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .features__buttons {
@@ -168,14 +171,14 @@ h5 {
 }
 
 .features__buttons button {
-  display: block;
   background: transparent;
   border: none;
-  color: rgba(3, 27, 78, 0.6);
-  font-size: 16px;
   border-left: 1px solid rgba(3, 27, 78, 0.2);
-  padding: 15px;
   border-radius: 0;
+  color: rgba(3, 27, 78, 0.6);
+  display: block;
+  font-size: 16px;
+  padding: 15px;
   outline: none;
 }
 
@@ -207,17 +210,17 @@ h5 {
   margin-bottom: 100px;
 }
 
-.slides h1 {
+.slides__text h1 {
   color: #031b4e;
   padding: 60px 0 20px 0;
   font-weight: 600;
   font-size: 40px;
 }
 
-.slides p {
+.slides__text p {
   font-size: 20px;
   color: #5b6987;
-  padding-bottom: 50px;
+  padding: 0 60px 80px 60px;
 }
 
 .slides__img img {
@@ -237,9 +240,21 @@ h5 {
 
 .slides__img p {
   padding-top: 10px;
+  padding-bottom: 0;
   color: #031b4e;
   font-size: 12px;
   font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.slides__text__circles i {
+  color: #006aff;
+  font-size: 12px;
+}
+
+.slides__text__circles i:hover {
+  background-color: #006aff;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 992px) {
@@ -274,5 +289,10 @@ h1 {
 
   .features__description .row {
     margin-left: 10px;
+  }
+
+  .slides__text h1 {
+    padding: 50px 0 20px 0;
+    font-size: 30px;
   }
 }
