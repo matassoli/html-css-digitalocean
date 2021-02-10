@@ -3,6 +3,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+a:focus {
+  padding: 10px;
+  text-decoration: none;
+}
+
 .navibar img {
   width: 150px;
 }
@@ -139,18 +144,15 @@ h5 {
 .sponsor__logos img {
   margin: auto;
   padding-left: 10px;
-
 }
 
 .sponsor a {
   color: #006aff;
   font-weight: 500;
-  outline: none;
-
 }
 
 .features {
-  margin: 100px 0 100px;
+  margin: 80px 0 100px;
 }
 
 .features__text {
@@ -179,7 +181,6 @@ h5 {
   display: block;
   font-size: 16px;
   padding: 15px;
-  outline: none;
 }
 
 .features__buttons button:active {
@@ -194,44 +195,43 @@ h5 {
 }
 
 .features__description h5 {
-  padding-bottom: 15px;
   color: #031b4f;
   font-weight: 600;
+  padding-bottom: 15px;
 }
 
 .features__description p, .slides p {
-  font-size: 16px;
   color: #5b6987;
+  font-size: 16px;
 }
 
 .slides {
   background-color: #f3f5f9;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .slides__text h1 {
   color: #031b4e;
-  padding: 60px 0 20px 0;
-  font-weight: 600;
   font-size: 40px;
+  font-weight: 600;
+  padding: 60px 0 20px 0;
 }
 
 .slides__text p {
-  font-size: 20px;
   color: #5b6987;
+  font-size: 20px;
   padding: 0 60px 80px 60px;
 }
 
 .slides__img img {
-  width: 40%;
   height: auto;
+  width: 40%;
 }
 
 .slides__img i {
-  padding: 0 20px;
-  font-size: 30px;
   color: #5b6987;
+  font-size: 30px;
+  padding: 0 20px;
 }
 
 .slides__img i:hover {
@@ -239,12 +239,12 @@ h5 {
 }
 
 .slides__img p {
-  padding-top: 10px;
-  padding-bottom: 0;
   color: #031b4e;
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 5px;
+  padding-bottom: 0;
+  padding-top: 10px;
 }
 
 .slides__text__circles i {
@@ -257,11 +257,30 @@ h5 {
   border-radius: 50%;
 }
 
+.features__column {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 0 20px;
+  width: calc((100% / 3) - 3px);
+}
+
+.features__column h5 {
+  color: #031b4e;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.features__column a {
+  color: #006aff;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 992px) {
   .hero .login-form {
-    padding-top: 0;
-    min-width: 350px;
     margin: auto;
+    min-width: 350px;
+    padding-top: 0;
   }
 }
 
@@ -283,8 +302,8 @@ h1 {
   }
 
   h1 {
-    padding-top: 100px;
     font-size: 30px;
+    padding-top: 100px;
   }
 
   .features__description .row {
@@ -292,7 +311,12 @@ h1 {
   }
 
   .slides__text h1 {
-    padding: 50px 0 20px 0;
     font-size: 30px;
+    padding: 50px 0 20px 0;
+  }
+
+  .features__column {
+    display: block;
+    width: 100%;
   }
 }
