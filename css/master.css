@@ -276,6 +276,50 @@ h5 {
   font-weight: 500;
 }
 
+.regions {
+  background-color: #031b4e;
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.regions h2 {
+  padding-top: 80px;
+}
+
+table {
+  margin-bottom: 80px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+td:first-of-type {
+  color: white;
+  padding-right: 15px;
+}
+
+.regions a {
+  color: #00d7d2;
+}
+
+.regions a:hover {
+  color: #1633ff;
+}
+
+.regions a:focus {
+  color: white;
+  padding: 0;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 992px) {
   .hero .login-form {
     margin: auto;
