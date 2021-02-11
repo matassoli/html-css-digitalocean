@@ -147,6 +147,10 @@ h5 {
   padding-left: 10px;
 }
 
+.sponsor__logos--block {
+  display: inline-block;
+}
+
 .sponsor a {
   color: #006aff;
   font-weight: 500;
@@ -374,21 +378,22 @@ small {
     min-width: 350px;
     padding-top: 0;
   }
-}
 
-.sponsor__logos--block {
-  display: inline-block;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-@media screen and (max-width: 768px) {
-  .features {
-    margin-top: 40px;
+  h1 {
+    font-size: 40px;
   }
 
+  .slides__rockerbox {
+    width: 60%;
+  }
+}
+
+ @media screen and (max-width: 768px) {
+
+
+ .features {
+    margin-top: 40px;
+  }
   .sponsor__logos--block {
     display: block;
   }
@@ -407,8 +412,13 @@ h1 {
     padding: 50px 0 20px 0;
   }
 
+
   .features__column {
     display: block;
     width: 100%;
+  }
+
+  .slides__rockerbox {
+    width: 70%;
   }
 }
