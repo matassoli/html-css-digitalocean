@@ -367,8 +367,64 @@ small {
   padding-top: 30px;
 }
 
-.slides__img {
-  padding: 0;
+.prefooter {
+  background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg");
+  padding: 40px;
+}
+
+.prefooter h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.prefooter .btn {
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #010e28;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer img {
+  padding-bottom: 15px;
+}
+
+.footer__column-l p:first-of-type {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0
+}
+
+.footer__column-l a {
+  padding-left: 10px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__column-l a:hover, .footer__column-r a:hover {
+  color: #FFF;
+}
+
+.footer__column-r a {
+  color: inherit;
+}
+
+.footer__column-r li:first-of-type {
+  color: #FFF;
+  font-weight: 600;
+}
+
+.footer__column-r li {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 10px;
+  list-style-type: none;
 }
 
 /* RESPONSIVE */
@@ -388,12 +444,11 @@ small {
   }
 }
 
- @media screen and (max-width: 768px) {
-
-
- .features {
+@media screen and (max-width: 768px) {
+  .features {
     margin-top: 40px;
   }
+
   .sponsor__logos--block {
     display: block;
   }
@@ -411,7 +466,6 @@ small {
     font-size: 30px;
     padding: 50px 0 20px 0;
   }
-
 
   .features__column {
     display: block;
