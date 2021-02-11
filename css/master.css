@@ -302,6 +302,10 @@ td {
   padding: 10px 0;
 }
 
+tr:last-of-type td {
+  border-bottom: none;
+}
+
 td:first-of-type {
   color: white;
   padding-right: 15px;
