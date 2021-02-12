@@ -462,7 +462,7 @@ footer img {
 .sharkhelp__baloon {
   background-color: #FFF;
   border-radius: 10px;
-  box-shadow: 0px 0px 2px 0px #5b6987;
+  filter: drop-shadow(0 0 1px #5b6987);
   display: inline-block;
   font-weight: 500;
   height: auto;
@@ -481,10 +481,10 @@ footer img {
   border-left: 10px solid #FFF;
   border-right: none;
   border-top: 10px solid transparent;
-  bottom: 15px;
+  bottom: 8px;
   height: 0;
   position: absolute;
-  right: 78px;
+  right: -8px;
   width: 0;
 }
 
